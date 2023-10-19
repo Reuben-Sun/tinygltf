@@ -18,9 +18,7 @@ option(TINYGLTF_HEADER_ONLY "On: header-only mode. Off: create tinygltf library(
 option(TINYGLTF_INSTALL "Install tinygltf files during install step. Usually set to OFF if you include tinygltf through add_subdirectory()" ON)
 
 if (TINYGLTF_BUILD_LOADER_EXAMPLE)
-  add_executable(loader_example
-    loader_example.cc
-    )
+
 endif (TINYGLTF_BUILD_LOADER_EXAMPLE)
 
 if (TINYGLTF_BUILD_GL_EXAMPLES)
